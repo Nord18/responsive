@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+	.header__title {
+		font-size: 38px;
+		line-height: 34px;
+	}
+}
+
+@media (max-width: 575px) {
+	.section__border {
+		border-top: none;
+		border-bottom: none;
+	}
+	.section__nav-list {
+		background: none;
+		padding-left: 0px;
+	}
+	.cross--1,
+	.cross--2,
+	.cross--3 {
+		background: none;
+	}
+}
+
+@media (max-width: 990px) {
+	.grid-item--2 {
+		display: none;
+	}
+}
