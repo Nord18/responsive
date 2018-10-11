@@ -11,6 +11,10 @@ img {
 	height: auto;
 }
 
+ul {
+	list-style: none;
+}
+
 .navbar-custom {
     background-color: #fff;
 }
@@ -159,4 +163,36 @@ img {
     &:hover {
     	opacity: 1;
     }
+}
+
+.footer {
+	background-color: #FFF;
+	padding-top: 62px;
+	&__logo {
+		padding-bottom: 44px;
+	}
+	&__border {
+		border-top: 1px solid #e1e1e1;
+		border-bottom: 1px solid #e1e1e1;
+		width: 100%;
+	}
+	&__copyright {
+		margin-top: 38px;
+	}
+	&__copyright {
+		font-family: @fontRoboto;
+        color: #9c9c9c;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 26px;
+	}
+	&__element {
+		color: #000000;
+	}
+}
+
+.fa-link {
+	&:hover {
+		transform: scale(2);
+	}
 }
