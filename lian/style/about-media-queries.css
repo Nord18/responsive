@@ -1,0 +1,12 @@
+@media (max-width: 844px) {
+	.header__title {
+		font-size: 38px;
+		line-height: 34px;
+	}
+}
+
+@media (max-width: 320px) {
+	.detalis__btn {
+		margin-top: 10px;
+	}
+}

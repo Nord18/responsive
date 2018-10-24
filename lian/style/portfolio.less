@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Roboto:300,400,700');
+
+@import "variables";
+@import "slick";
+@import "slick-theme";
+
+body {
+	background-color: #fafafa;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.navbar-custom {
+    background-color: #fff;
+}
+
+.header {
+	&__nav-list {
+		padding-right: 20px;
+		&:last-child {
+			padding-right: 0px;
+		}
+	}
+	&__nav-link {
+		font-family: @fontRoboto;
+        color: #777777;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+	}
+	&__inner {
+		background-image: url(../img/port-bg-1.jpg);
+	    height: 350px;
+	    background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+	}
+	&__inner--2 {
+		background-image: url(../img/port-bg-2.jpg);
+	    height: 350px;
+	    background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+	}
+	&__title {
+		font-family: @fontRoboto;
+        color: #ffffff;
+        font-size: 48px;
+        font-weight: 300;
+        line-height: 24px;
+        padding-bottom: 35px;
+	}
+	&__slogan {
+		font-family: @fontRoboto;
+        color: #000000;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 24px;
+	}
+	&__item {
+		background-color: #FFF;
+		height: 61px;
+	}
+	&__slide {
+		font-family: @fontRoboto;
+	    color: #071f07;
+	    font-size: 13px;
+	    font-weight: 700;
+	    line-height: 24px;
+	    border: none;
+	    background-color: transparent;
+	    height: 61px;
+	    width: 163px;
+	}
+	&__slide--prev {
+		border-left: 2px solid #ebebeb;
+		border-right: 2px solid #ebebeb;
+	}
+	&__slide--next {
+		border-right: 2px solid #ebebeb;
+	}
+}
+
+.slider-thumb {
+	margin-top: 30px;
+}
+
+.detalis {
+	margin-top: 70px;
+	padding-bottom: 142px;
+	&__caption {
+		font-family: @fontRoboto;
+        color: #000000;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+	}
+	&__design {
+		font-family: @fontRoboto;
+        color: #555555;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+	}
+	&__date {
+		font-family: @fontRoboto;
+        color: #555555;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 48px;
+        padding-right: 64px;
+	}
+	&__like {
+		font-family: @fontRoboto;
+        color: #555555;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 48px;
+	}
+	&__text {
+		font-family: @fontRoboto;
+        color: #777777;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+	}
+	&__role {
+		font-family: @fontRoboto;
+        color: #333333;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 36px;
+	}
+	&__tags {
+		font-family: @fontRoboto;
+        color: #333333;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 36px;
+	}
+	&__dscr--role {
+		font-family: @fontRoboto;
+        color: #999999;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 36px;
+	}
+	&__dscr--tags {
+		font-family: @fontRoboto;
+        color: #999999;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 36px;
+        cursor: pointer;
+	}
+}
+
+.related {
+	&__caption {
+		font-family: @fontRoboto;
+        color: #000000;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 24px;
+        padding-bottom: 35px;
+	}
+	&__dscr {
+		font-family: @fontRoboto;
+        color: #777777;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+        padding-bottom: 35px;
+	}
+}
+
+.footer {
+	background-color: #FFF;
+	padding-top: 62px;
+	&__logo {
+		padding-bottom: 44px;
+	}
+	&__border {
+		border-top: 1px solid #e1e1e1;
+		border-bottom: 1px solid #e1e1e1;
+		width: 100%;
+	}
+	&__copyright {
+		margin-top: 38px;
+	}
+	&__copyright {
+		font-family: @fontRoboto;
+        color: #9c9c9c;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 26px;
+	}
+	&__element {
+		color: #000000;
+	}
+}
+
+.fa-link {
+	&:hover {
+		transform: scale(2);
+	}
+}
