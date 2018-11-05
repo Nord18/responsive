@@ -31,6 +31,13 @@
 		border-bottom: 2px solid #3b3b3b;
 		padding: 41px 0px 41px 35px;
 	}
+	&__list--large {
+		display: inline-block;
+		padding-right: 45px;
+		&:last-child {
+			padding-right: 0;
+		}
+	}
 	&__link {
 		color: #858585;
         font-size: 32.01px;
@@ -41,6 +48,12 @@
         	transition-duration: 0.5s;
         }
 	}
+	&__link--large {
+        	color: #635c73;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 15px;
+    }
 	&__cont {
 		background: url("../images/head.jpg") no-repeat scroll center center;
 		background-size: cover;
@@ -295,29 +308,4 @@
 	padding-left: 53px;
 }
 
-@media screen and (max-width: 375px) {
-	.header {
-		padding-bottom: 170px;
-	}
-	.hero__span {
-		margin-left: 0px;
-	}
-	.social__text {
-		width: 370px;
-	}
-}
-
-@media screen and (max-width: 320px) {
-	.header__nav-btn {
-		display: none;
-	}
-	.hero__span {
-		padding: 7px 0px 7px 0px;
-	}
-	.hero__title {
-		font-size: 2em;
-	}
-	.social__text {
-		width: 277px;
-	}
-}
+@import "media-queries";
