@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'circle';
+    src: url("../fonts/Circle-Regular.otf") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'circle';
+    src: url("../fonts/CRC65.otf") format("opentype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'proxima_novaregular';
+    src: url('../fonts/12093-webfont.woff2') format('woff2'),
+         url('../fonts/12093-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+	max-width: 1920px;
+	margin: 0 auto;
+}

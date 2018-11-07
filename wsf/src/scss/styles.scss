@@ -1,0 +1,294 @@
+@import "variables";
+@import "base";
+
+.header {
+	&__nav--top {
+		height: 112px;
+		width: 100%;
+		background-color: #181818;
+		display: flex;
+		align-items: center;
+		padding-left: 4.2%;
+	}
+	&__logo {
+		margin-right: 40%;
+	}
+	&__top-link--1 {
+	    margin-right: 38px;
+	    font-family: 'Circe';
+        color: #ffffff;
+        font-size: 0.875em;
+        font-weight: 700;
+        line-height: 3.429;
+	}
+	&__top-link--2 {
+		margin-right: 19.5%;
+		font-family: 'Circe';
+        color: #ffffff;
+        font-size: 0.875em;
+        font-weight: 700;
+        line-height: 3.429;
+	}
+	&__top-link--3 {
+		margin-right: 6%;
+		margin-left: 10px;
+		font-family: 'Circe';
+        color: #ffffff;
+        font-size: 0.875em;
+        font-weight: 700;
+        line-height: 3.429;
+	}
+	&__burger {
+		width: 29px;
+        height: 24px;
+        position: relative;
+        cursor: pointer;
+	}
+	&__select {
+		background-color: transparent;
+		color: #fff;
+	}
+	&__option {
+		background-color: #20282f;
+		color: #fff;
+	}
+}
+
+.main {
+	background: url("../images/BG.jpg") no-repeat scroll;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	&__slogan {
+		color: #ffffff;
+        font-size: 1.5em;
+        font-family: 'Circe';
+        font-weight: 700;
+        line-height: 1.5;
+        margin-left: 106px;
+	}
+	&__pic {
+		position: relative;
+	}
+	&__title {
+		position: absolute;
+		margin-top: -85px;
+		margin-left: 106px;
+		font-family: 'Circe';
+        color: #ffffff;
+        font-size: 3em;
+        font-weight: 700;
+        line-height: 1.25;
+	}
+	&__list {
+		color: #ffffff;
+	    font-size: 3em;
+	    font-weight: 700;
+	    line-height: 1.25;
+	    font-family: 'Circe';
+	    float: left;
+	    margin-right: 15px;
+	}
+	&__list--2 {
+		color: #ffffff;
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 3.75;
+        font-family: 'Circe';
+        margin-top: -15px;
+	}
+	&__slider {
+		clear: both;
+		display: flex;
+		align-items: center;
+	}
+	&__prev {
+		background: url("../images/arpre.png") no-repeat;
+		width: 26px;
+		height: 16px;
+		cursor: pointer;
+		&:hover {
+			background: url("../images/prev.png") no-repeat;
+			width: 50px;
+		    height: 12px;
+		    transition: 0.5s;
+		}
+	}
+	&__next {
+		background: url("../images/arnex.png") no-repeat;
+		width: 26px;
+		height: 16px;
+		cursor: pointer;
+		&:hover {
+			background: url("../images/next.png") no-repeat;
+			width: 64px;
+		    height: 12px;
+		    transition: 0.5s;
+		}
+	}
+	&__line {
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	&__nav--left {
+		height: 100vh;
+		width: 80px;
+		background-color: #181818;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	&__left-link {
+		font-family: 'Circe';
+        color: #ffffff;
+        font-size: 0.875em;
+        font-weight: 400;
+        line-height: 3.429;
+        text-align: left;
+	}
+	&__inner--3 {
+		width: 40px;
+        height: 40px;
+        transform: rotate(90deg);
+	}
+	&__left-link:after {
+        content: "Ins";
+    }
+
+    &__inner--3:hover .main__left-link:after {
+        content: "\f16d";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+    }
+    &__left-link--2 {
+		font-family: 'Circe';
+        color: #ffffff;
+        font-size: 0.875em;
+        font-weight: 400;
+        line-height: 3.429;
+        text-align: left;
+	}
+    &__inner--4 {
+		width: 40px;
+        height: 40px;
+        transform: rotate(90deg);
+        margin-top: 20px;
+        margin-bottom: 20px;
+	}
+	&__left-link--2:after {
+        content: "Tw";
+    }
+
+    &__inner--4:hover .main__left-link--2:after {
+        content: "\f081";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+    }
+    &__left-link--3 {
+		font-family: 'Circe';
+        color: #ffffff;
+        font-size: 0.875em;
+        font-weight: 400;
+        line-height: 3.429;
+        text-align: left;
+	}
+    &__inner--5 {
+		width: 40px;
+        height: 40px;
+        transform: rotate(90deg);
+	}
+	&__left-link--3:after {
+        content: "In";
+    }
+
+    &__inner--5:hover .main__left-link--3:after {
+        content: "\f08c";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+    }
+}
+
+.footer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-top: -100px;
+	&__btn {
+		height: 90px;
+		width: 100px;
+		background-color: #fff;
+	}
+	&__part {
+		height: 100px;
+		width: 80%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #FFF;
+		justify-content: space-around;
+	}
+	&__btn--down {
+		outline: none;
+		cursor: pointer;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background-color: #FF2323;
+		color: #fff;
+	}
+	&__proects {
+		color: #070707;
+		font-family: 'Circe';
+        font-size: 0.875em;
+        font-weight: 700;
+        line-height: 4.286;
+	}
+	&__achievements {
+		font-family: 'ProximaNova';
+        color: #868686;
+        font-size: 0.875em;
+        font-weight: 400;
+        line-height: 1.286;
+	}
+}
+
+//burger
+
+.line {
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
+}
+
+.line01 {
+    top: 19%;
+}
+
+.line02 {
+    top: 60%;
+}
+
+.menu.close .line01 {
+    transform: rotate(45deg);
+    top: 49%;
+}
+
+.menu.close .line02, .menu.close .line03 {
+    transform: rotate(-45deg);
+    top: 49%;
+}
+
+@import "media-queries";
