@@ -22,6 +22,9 @@
 }
 
 @media screen and (max-width: 414px) {
+	.header__item {
+		padding-bottom: 5px;
+	}
 	.problems__btn {
 		margin-bottom: 10px;
 	}
@@ -32,4 +35,16 @@
 		font-size: 2em;
         line-height: 1.1;
 	}
+	.problems__info-caption {
+		line-height: 1;
+	}
+	.problems__circle {
+		width: 100px;
+	}
 }
+
+@media screen and (max-width: 320px) {
+	.category__title {
+		font-size: 2em;
+	}
+} 

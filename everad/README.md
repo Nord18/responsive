@@ -4,7 +4,3 @@ If you're getting an error try to `npm i -g yarn` or `sudo npm i -g yarn` and re
 To start working on the project use `yarn dev` command.
 ---
 For minifying and optimizations use `yarn build` command.
-
-<ul>
-<li><a href="https://nord18.github.io/forgrant/dest/index.html">Forgrant test</a></li>
-</ul>
